@@ -1,6 +1,7 @@
+#![no_std]
 #![feature(const_fn_floating_point_arithmetic, test)]
 ///! Fast approximate floating point functions from https://www.youtube.com/watch?v=ReTetN51r7A
-use std::mem;
+use core::mem;
 
 extern crate test;
 
